@@ -27,7 +27,7 @@
             <img src="tiplogo.png" alt="TIP Logo">
         </div>
 
-        <div class="loader-line"></div> //BABY
+        <div class="loader-line"></div>
 
         <p>Loading ReSource...</p>
     </div>
