@@ -740,6 +740,10 @@ if (user) {
 
 function logout() {
 
+    if (!confirm("Are you sure you want to log out?")) {
+        return;
+    }
+
     localStorage.removeItem(
         STORAGE.session
     );
